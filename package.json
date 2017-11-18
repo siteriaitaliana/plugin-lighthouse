@@ -1,0 +1,46 @@
+{
+  "name": "@sitespeed.io/plugin-gpsi",
+  "version": "0.1.0",
+  "description": "GPSI plugin for sitespeed.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitespeedio/plugin-gpsi.git"
+  },
+  "keywords": [
+    "sitespeed.io",
+    "gpsi",
+    "webperf",
+    "perfmatters"
+  ],
+  "author": {
+    "name": "Peter Hedenskog",
+    "url": "https://www.peterhedenskog.com"
+  },
+  "contributors": [
+    {
+      "name": "Tobias Lidskog"
+    },
+    {
+      "name": "Jonathan Lee"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sitespeedio/plugin-gpsi/issues"
+  },
+  "devDependencies": {
+    "eslint": "~4.5.0",
+    "eslint-config-prettier": "~2.3.0",
+    "eslint-plugin-prettier": "~2.1.2",
+    "prettier": "~1.5.3"
+  },
+  "dependencies": {
+    "gpagespeed": "4.0.5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+  },
+  "main": "./lib/index.js"
+}
