@@ -14,8 +14,8 @@ before_install:
 - export DISPLAY=:99.0
 - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile
   --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1600x1024x16"
-- git clone https://github.com/sitespeedio/sitespeed.io.git
-- cd sitespeed.io && npm install -g && cd ..
+- cd .. && git clone https://github.com/sitespeedio/sitespeed.io.git
+- cd sitespeed.io && npm install -g && cd ../plugin-gpsi
 script:
 - npm run lint
 - ls -la
