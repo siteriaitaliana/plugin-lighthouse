@@ -1,4 +1,6 @@
 # sitespeed.io plugin for GPSI (Google Page Speed)
+[![Build Status](https://travis-ci.org/sitespeedio/plugin-gpsi.svg?branch=master)](https://travis-ci.org/sitespeedio/plugin-gpsi)
+
 Run GPSI as a plugin for sitespeed.io
 
 Run by giving **--gpsi.key YOUR_GPSI_KEY** to sitespeed.io.
