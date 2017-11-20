@@ -18,8 +18,6 @@ before_install:
 - cd sitespeed.io && npm install -g && cd ../plugin-gpsi
 script:
 - npm run lint
-- ls -la
-- pwd
 - sitespeed.io --plugins.add ./lib/ --gpsi.key $GPSI https://www.sitespeed.io/
   -n 1
 notifications:
