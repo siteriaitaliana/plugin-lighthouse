@@ -1,4 +1,4 @@
-# sitespeed.io plugin for GPSI (Google Page Speed)
+# sitespeed.io plugin for GPSI (Google PageSpeed Insights)
 [![Build Status](https://travis-ci.org/sitespeedio/plugin-gpsi.svg?branch=master)](https://travis-ci.org/sitespeedio/plugin-gpsi)
 
 Run GPSI as a plugin for sitespeed.io
