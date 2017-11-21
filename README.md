@@ -17,4 +17,4 @@ bin/sitespeed.js --plugins.add ../plugin-lighthouse/lib/ https://www.sitespeed.i
 ```
 
 ## Run in production
-If you want to run GPSI with your other sitespeed.io test, follow the instructions in the [add a plugin docs](https://www.sitespeed.io/documentation/sitespeed.io/plugins/#add-a-plugin).
+If you want to run Lighthouse with your other sitespeed.io test, follow the instructions in the [add a plugin docs](https://www.sitespeed.io/documentation/sitespeed.io/plugins/#add-a-plugin).
