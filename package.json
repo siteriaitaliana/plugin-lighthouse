@@ -1,14 +1,14 @@
 {
-  "name": "@sitespeed.io/plugin-gpsi",
+  "name": "@sitespeed.io/plugin-lighthouse",
   "version": "0.1.0",
-  "description": "GPSI plugin for sitespeed.io",
+  "description": "Lighthouse plugin for sitespeed.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sitespeedio/plugin-gpsi.git"
+    "url": "git+https://github.com/sitespeedio/plugin-lighthouse.git"
   },
   "keywords": [
     "sitespeed.io",
-    "gpsi",
+    "lighthouse",
     "webperf",
     "perfmatters"
   ],
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sitespeedio/plugin-gpsi/issues"
+    "url": "https://github.com/sitespeedio/plugin-lighthouse/issues"
   },
   "devDependencies": {
     "eslint": "~4.5.0",
