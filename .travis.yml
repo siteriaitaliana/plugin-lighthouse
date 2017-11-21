@@ -19,7 +19,7 @@ before_install:
 - cd sitespeed.io && npm install -g && cd ../plugin-lighthouse
 script:
 - npm run lint
-- sitespeed.io --plugins.add ./lib/ -n 1
+- sitespeed.io --plugins.add ./lib/  https://www.sitespeed.io/ -n 1
 notifications:
   slack:
     secure: GAuuPF+dRE83GytvQlYhQ5NFtXjaGQDu42leJX/l1bZbT13lhAkqxc2kttdTZp7+Rf0Evk02cuYVbTl2ahatnWzXNkKRNO+IQRmx+1mwOcUAEeWtrfLo2L4BGWfsh6jxxskXDb7QJyPWXhwrM2mwaQ3JKZDdEKIhCoeQHHljZ8o1hTHrl8e0mdmqsXtnbatn/Ue0pE3/ZWMWXZXBN25NK6rHEQCRhMe5wvp32ci7RxnouHbulN+Bopem96LMbG1KJVoLkqqEsMcNBA58XERdYgvRshg/gQzimT5JeTS52vkMA+HLR17qmavm2TsB8f7axIsx1WxdI4zedCSPXG7kQlfgkbK87Jfq2IxHll65/BCGEpKA/7KwZbTKGQp1PjBzZnYasTGlvrRdtBGJYI89Im0KQ7ZP6zBHPOrjGkYea/zv/HB38u5G9TyXm7orxzj5HSY01Bt2r20korcjSOcPTSHyNSbbxn45UUSclyx9zyjlOmk6R2sPbOUIQQMWHm1KpGXwe+prpIMwOIybi6jvIvQkPSKqtl7yLe9oqX2iFJQeBOaFWk9wy+gEMRgP14hCtHI2wBLSRLSzqNgudaLIKOpyzWmqNJIP8Bt+HCSpxYZy/Wd6A1pJoYP6k5mGtWda1/PjYtX8TcHOyE5PmCfSt1nTMAdDBN5mf9BFz0dQLqE=
