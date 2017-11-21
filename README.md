@@ -1,5 +1,5 @@
 # sitespeed.io plugin for Lighthouse
-[![Build Status](https://travis-ci.org/sitespeedio/plugin-lighthouse.svg?branch=master)](https://travis-ci.org/sitespeedio/plugin-lighthouse)
+[![Build Status](https://travis-ci.org/siteriaitaliana/plugin-lighthouse.svg?branch=master)](https://travis-ci.org/siteriaitaliana/plugin-lighthouse)
 
 Run Lighthouse as a plugin for sitespeed.io
 
