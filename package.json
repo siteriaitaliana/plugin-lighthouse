@@ -13,15 +13,12 @@
     "perfmatters"
   ],
   "author": {
-    "name": "Peter Hedenskog",
-    "url": "https://www.peterhedenskog.com"
+    "name": "Lorenzo Urbini",
+    "url": "https://www.linkedin.com/in/lorenzo-urbini-a2061a17/"
   },
   "contributors": [
     {
-      "name": "Tobias Lidskog"
-    },
-    {
-      "name": "Jonathan Lee"
+      "name": "Lorenzo Urbini"
     }
   ],
   "license": "MIT",
@@ -35,7 +32,7 @@
     "prettier": "~1.5.3"
   },
   "dependencies": {
-    "gpagespeed": "4.0.5"
+    "lighthouse": "^2.6.0"
   },
   "scripts": {
     "lint": "eslint .",

@@ -1,9 +1,7 @@
-# sitespeed.io plugin for GPSI (Google PageSpeed Insights)
-[![Build Status](https://travis-ci.org/sitespeedio/plugin-gpsi.svg?branch=master)](https://travis-ci.org/sitespeedio/plugin-gpsi)
+# sitespeed.io plugin for Lighthouse
+[![Build Status](https://travis-ci.org/sitespeedio/plugin-lighthouse.svg?branch=master)](https://travis-ci.org/sitespeedio/plugin-lighthouse)
 
-Run GPSI as a plugin for sitespeed.io
-
-Run by giving **--gpsi.key YOUR_GPSI_KEY** to sitespeed.io.
+Run Lighthouse as a plugin for sitespeed.io
 
 You can read more about sitespeed.io plugins [here](https://www.sitespeed.io/documentation/sitespeed.io/plugins/).
 
@@ -15,7 +13,7 @@ If you have checked out as the same level as sitespeed.io you run it like this (
 git clone https://github.com/sitespeedio/sitespeed.io.git
 cd sitespeed.io
 npm install
-bin/sitespeed.js --plugins.add ../plugin-gpsi/lib/ --gpsi.key YOUR_SECRET_KEY https://www.sitespeed.io/ -n 1
+bin/sitespeed.js --plugins.add ../plugin-lighthouse/lib/ https://www.sitespeed.io/ -n 1
 ```
 
 ## Run in production
